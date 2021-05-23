@@ -1,0 +1,81 @@
+
+#header {
+  position: fixed;
+     top: 10px;
+      width: 100%;
+      font-family: Arial, Tohama;
+  }
+    #header-img {
+        border-radius: 20px;
+        width:70px;
+         height:60px;
+}
+     nav {
+        width: 100%;
+}
+     #nav-bar {
+        position: absolute;
+        top: 0px;
+        left: 650px;
+        font-family: fantasy;
+        display: block;        
+}
+     li{
+       padding-left: 60px;
+        display: inline;
+ }
+     #form {
+         align-text: center;
+          padding-top:80px;
+}
+     p {
+       font-size: 16px;
+       letter-spacing: 1px;
+}
+     label {
+      align-items: center;
+}
+     #html, #w3schools {
+        width: 50%;
+        margin: 0 auto;
+}
+     #freecodecamp-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width:100%;
+         margin: auto;
+       text-align: center;
+}
+
+   #freecodecamp-flex div {
+       width: calc(100% / 3)
+        padding:10px;
+}
+
+ #freecodecamp-flex img{
+      width: 250px;
+      height: 250px;
+}
+    h2 {
+      text-align: center;
+}
+  #form, .center {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+@media only screen and (
+    min-width: 768px
+)
+  and (
+  max-width: 1024px
+  ) 
+    header #logo{
+      height: 80px;
+    } 
+
+}
